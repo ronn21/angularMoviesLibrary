@@ -1,0 +1,6 @@
+<h3>
+    Click on movie to show details
+</h3>
+<div class="film" *ngFor="let movie of newMovies;">
+    <img src="assets/{{ movie._title | lowercase }}.png" width="100"/>
+</div>
